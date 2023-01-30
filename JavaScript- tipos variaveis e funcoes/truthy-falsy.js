@@ -8,8 +8,14 @@ const contaPaga = false;
 // 0 ou " "= false
 // 1 = true
 
-console.log (0 == false) //true
-console.log (1 == true)
+console.log (0 == false) //true;
+console.log (1 == true) // true;
 
-// null
+
+
+
+// null - é tipo de nada que representa vazio/nada; é dado pelo typeof com OBJETO
 // undefined - variavel sem valor;
+
+let minhaVar; //undefined
+let varNull = null;
