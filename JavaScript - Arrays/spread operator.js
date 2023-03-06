@@ -24,13 +24,11 @@
 
 
 
-const arrayOriginal = [7, 7, 8, 9];
 
-function alteraArray(array) {
-  array.push(10);
+const notas = [7, 7, 8, 9];
 
-  console.log(`array do parâmetro é ${array}`);
-  console.log(`arrayOriginal é ${arrayOriginal}`);
-}
+const novasNotas = [...notas, 10]
 
-alteraArray(arrayOriginal);
+
+console.log (`As novas notas são ${novasNotas}`);
+console.log (`As novas notas são ${notas}`);
